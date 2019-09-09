@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFE0C498DE71BF5003EBCC6 /* Pods_ReadJSONAndMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79168B43669D99ADEB5B8EF1 /* Pods_ReadJSONAndMotion.framework */; };
+		BD024A592321FE8200DB2604 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD024A582321FE8200DB2604 /* TableViewCell.swift */; };
+		BD1F8F4A2321BD68007CB484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F8F492321BD68007CB484 /* AppDelegate.swift */; };
+		BD1F8F4F2321BD68007CB484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1F8F4D2321BD68007CB484 /* Main.storyboard */; };
+		BD1F8F542321BD69007CB484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1F8F522321BD69007CB484 /* LaunchScreen.storyboard */; };
+		BD1F8F5C2321BDA9007CB484 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F8F5B2321BDA9007CB484 /* JSONReader.swift */; };
+		BD1F8F5E2321BDE2007CB484 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F8F5D2321BDE2007CB484 /* Motion.swift */; };
+		BDE927B4232333CC00BBCFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE927B3232333CC00BBCFAA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		087E2A6024E09FDD1CDB8FD1 /* Pods-ReadJSONAndMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadJSONAndMotion.debug.xcconfig"; path = "Target Support Files/Pods-ReadJSONAndMotion/Pods-ReadJSONAndMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		79168B43669D99ADEB5B8EF1 /* Pods_ReadJSONAndMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadJSONAndMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82830F8F126EAC695665FB83 /* Pods-ReadJSONAndMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadJSONAndMotion.release.xcconfig"; path = "Target Support Files/Pods-ReadJSONAndMotion/Pods-ReadJSONAndMotion.release.xcconfig"; sourceTree = "<group>"; };
+		BD024A582321FE8200DB2604 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BD1F8F462321BD68007CB484 /* ReadJSONAndMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadJSONAndMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F8F492321BD68007CB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD1F8F4E2321BD68007CB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD1F8F532321BD69007CB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD1F8F552321BD69007CB484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1F8F5B2321BDA9007CB484 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		BD1F8F5D2321BDE2007CB484 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		BDE927B3232333CC00BBCFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1F8F432321BD68007CB484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFE0C498DE71BF5003EBCC6 /* Pods_ReadJSONAndMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7893B05AC259A2BE6A5E0CB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				087E2A6024E09FDD1CDB8FD1 /* Pods-ReadJSONAndMotion.debug.xcconfig */,
+				82830F8F126EAC695665FB83 /* Pods-ReadJSONAndMotion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD1F8F3D2321BD68007CB484 = {
+			isa = PBXGroup;
+			children = (
+				BD1F8F482321BD68007CB484 /* ReadJSONAndMotion */,
+				BD1F8F472321BD68007CB484 /* Products */,
+				7893B05AC259A2BE6A5E0CB8 /* Pods */,
+				F9244D502C7DB4E94F7439BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1F8F472321BD68007CB484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F8F462321BD68007CB484 /* ReadJSONAndMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1F8F482321BD68007CB484 /* ReadJSONAndMotion */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F8F552321BD69007CB484 /* Info.plist */,
+				BD1F8F522321BD69007CB484 /* LaunchScreen.storyboard */,
+				BDE927B3232333CC00BBCFAA /* Assets.xcassets */,
+				BD1F8F602321BE86007CB484 /* Controller */,
+				BD1F8F612321BEA7007CB484 /* Model */,
+				BD1F8F5F2321BE31007CB484 /* View */,
+			);
+			path = ReadJSONAndMotion;
+			sourceTree = "<group>";
+		};
+		BD1F8F5F2321BE31007CB484 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F8F4D2321BD68007CB484 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD1F8F602321BE86007CB484 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD024A582321FE8200DB2604 /* TableViewCell.swift */,
+				BD1F8F5B2321BDA9007CB484 /* JSONReader.swift */,
+				BD1F8F5D2321BDE2007CB484 /* Motion.swift */,
+				BD1F8F492321BD68007CB484 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD1F8F612321BEA7007CB484 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9244D502C7DB4E94F7439BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79168B43669D99ADEB5B8EF1 /* Pods_ReadJSONAndMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1F8F452321BD68007CB484 /* ReadJSONAndMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F8F582321BD69007CB484 /* Build configuration list for PBXNativeTarget "ReadJSONAndMotion" */;
+			buildPhases = (
+				4BECE787807D441D4D49A730 /* [CP] Check Pods Manifest.lock */,
+				BD1F8F422321BD68007CB484 /* Sources */,
+				BD1F8F432321BD68007CB484 /* Frameworks */,
+				BD1F8F442321BD68007CB484 /* Resources */,
+				485D11EF495E6F24730592C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadJSONAndMotion;
+			productName = ReadJSONAndMotion;
+			productReference = BD1F8F462321BD68007CB484 /* ReadJSONAndMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1F8F3E2321BD68007CB484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Çağrı Tuğberk MASAT";
+				TargetAttributes = {
+					BD1F8F452321BD68007CB484 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BD1F8F412321BD68007CB484 /* Build configuration list for PBXProject "ReadJSONAndMotion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1F8F3D2321BD68007CB484;
+			productRefGroup = BD1F8F472321BD68007CB484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1F8F452321BD68007CB484 /* ReadJSONAndMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1F8F442321BD68007CB484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F8F542321BD69007CB484 /* LaunchScreen.storyboard in Resources */,
+				BDE927B4232333CC00BBCFAA /* Assets.xcassets in Resources */,
+				BD1F8F4F2321BD68007CB484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485D11EF495E6F24730592C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadJSONAndMotion/Pods-ReadJSONAndMotion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadJSONAndMotion/Pods-ReadJSONAndMotion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadJSONAndMotion/Pods-ReadJSONAndMotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BECE787807D441D4D49A730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadJSONAndMotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1F8F422321BD68007CB484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F8F5E2321BDE2007CB484 /* Motion.swift in Sources */,
+				BD024A592321FE8200DB2604 /* TableViewCell.swift in Sources */,
+				BD1F8F5C2321BDA9007CB484 /* JSONReader.swift in Sources */,
+				BD1F8F4A2321BD68007CB484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD1F8F4D2321BD68007CB484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F8F4E2321BD68007CB484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD1F8F522321BD69007CB484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F8F532321BD69007CB484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1F8F562321BD69007CB484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD1F8F572321BD69007CB484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1F8F592321BD69007CB484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087E2A6024E09FDD1CDB8FD1 /* Pods-ReadJSONAndMotion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UCYVYPJTR;
+				INFOPLIST_FILE = ReadJSONAndMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personalProject.ReadJSONAndMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1F8F5A2321BD69007CB484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82830F8F126EAC695665FB83 /* Pods-ReadJSONAndMotion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UCYVYPJTR;
+				INFOPLIST_FILE = ReadJSONAndMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personalProject.ReadJSONAndMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1F8F412321BD68007CB484 /* Build configuration list for PBXProject "ReadJSONAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F8F562321BD69007CB484 /* Debug */,
+				BD1F8F572321BD69007CB484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F8F582321BD69007CB484 /* Build configuration list for PBXNativeTarget "ReadJSONAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F8F592321BD69007CB484 /* Debug */,
+				BD1F8F5A2321BD69007CB484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1F8F3E2321BD68007CB484 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ReadJSONAndMotion {
+  umbrella header "Pods-ReadJSONAndMotion-umbrella.h"
+
+  export *
+  module * { export * }
+}
