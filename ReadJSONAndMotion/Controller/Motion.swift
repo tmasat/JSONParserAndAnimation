@@ -16,11 +16,11 @@ class Motion: UIViewController {
     var getBackgroundImage = String()
     
     
-    var seconds = 4
+    var seconds = 3
     var timer = Timer()
     
     
-    let pokeballModels = ["pokeball0", "pokeball1", "pokeball2", "pokeball3"]
+    let pokeballModels = ["pokeball0", "pokeball1", "pokeball2"]
     
     var square1 = UIButton()
     var square2 = UIButton()
@@ -69,6 +69,7 @@ class Motion: UIViewController {
         centerSquaresFunction(uiButton: square3)
         centerSquaresFunction(uiButton: square4)
         
+        buttonChangeImage.setImage(UIImage(named: "pokeball3"), for: .normal)
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector (counter), userInfo: nil, repeats: true)
     }
     
